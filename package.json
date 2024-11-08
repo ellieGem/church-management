@@ -1,0 +1,22 @@
+{
+  "name": "church-management",
+  "version": "1.0.0",
+  "description": "Church management system",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "author": "Elorm Axolu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
